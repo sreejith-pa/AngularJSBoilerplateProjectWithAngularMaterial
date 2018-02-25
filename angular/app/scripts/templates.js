@@ -1,0 +1,2 @@
+angular.module("templates", []).run(["$templateCache", function($templateCache) {$templateCache.put("Dashboard.html","<ui-view>\n<div class=\"DashBoard_bg\"><h1>Dashboard</h1></div>\n</ui-view>\n");
+$templateCache.put("LoginScreen.html","<ui-view>\n<div style=\"height: 100px; width:200px; background-color:burlywood;\">\n  <div ng-click=\"login()\">Login</div>\n</div>\n</ui-view>\n");}]);

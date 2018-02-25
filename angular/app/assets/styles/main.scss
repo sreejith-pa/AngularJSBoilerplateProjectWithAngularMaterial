@@ -1,0 +1,112 @@
+@import 'node_modules/bootstrap/dist/css/bootstrap';
+@import 'node_modules/angular-material/angular-material.scss';
+@import "home";
+
+html {
+  height  : 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  height  : 100%;
+  width : 100%;
+  overflow: auto;
+  padding-top: 0px;
+  background-color: #c4c4c4;
+}
+
+
+.menuheaderBg{
+  background-color: #C4C4C4;
+  width: 100%;
+}
+
+.tile{
+  background: #fff;
+  margin: 30px;
+  height: 100px;
+  width: 160px;
+}
+.tileContainer{
+  width: 100%;
+  height: 200px;
+}
+.activityContainer{
+  width: 100%;
+}
+.bgTransparent{
+  background-color:transparent;
+}
+.serviceHistory{
+  width: 100%;
+  // height: 500px;
+}
+.serviceList{
+  width: 100%;
+  height: 430px;
+  overflow: auto;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.25);
+}
+.serviceList::-webkit-scrollbar {
+  background:transparent;
+  width:1px;
+}
+.serviceList::-webkit-scrollbar-track {
+  background:#ffffff;
+}
+.serviceList::-webkit-scrollbar-thumb {
+  background:#ffffff;
+}
+.icondemoSvgIconSets md-icon {
+  margin: 20px;
+  margin-top: 0;
+  width: 24px;
+  height: 24px; }
+
+  .serviceForm{
+    width: 100%;
+    height: 500px;
+    background-color: #c4c434;
+  }
+  .md-whiteframe-2dp{
+    height: 60px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  .menuBardemoBasicUsage .page-container {
+    padding: 0px;
+    height: 100%;
+    min-height: 100%;
+    min-width: 1280px;
+    min-height: 768px;
+  }
+  .menuBardemoBasicUsage .page {
+    margin: 0 auto;
+    // background-color: white;
+    padding: 24px;
+    max-width: 100%;
+    height: 100%;
+   }
+    .menuBardemoBasicUsage .page h1 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-top: 0;
+      font-weight: normal; }
+      .menuBardemoBasicUsage .page p {
+        line-height: 1.6rem; }
+
+        .tabsdemoDynamicHeight md-content {
+          background-color: transparent !important; }
+          .tabsdemoDynamicHeight md-content md-tabs {
+            background: #f6f6f6;
+            border: 1px solid #e1e1e1; }
+            .tabsdemoDynamicHeight md-content md-tabs md-tabs-wrapper {
+              background: white; }
+              .tabsdemoDynamicHeight md-content h1:first-child {
+                margin-top: 0; }

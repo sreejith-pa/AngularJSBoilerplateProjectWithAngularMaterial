@@ -1,0 +1,120 @@
+div.tile {
+  position: relative;
+  height: 90%;
+  box-shadow: 0px 0px 9px 0px rgba(179,179,179,1);
+  border: 1px solid #b8b8b8;
+}
+
+div.card{
+  height: 150px;
+}
+.carousel-inner{
+  max-height: 120px !important;
+}
+
+@media only screen and (min-width: 600px) {
+  div.card{
+    height: 160px;
+  }
+  .carousel-inner{
+    max-height: 200px !important;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  div.card{
+    height: 200px;
+  }
+  .carousel-inner{
+    max-height: 260px !important;
+  }
+}
+
+
+div.addToCart{
+  float: right;
+  height: 100%;
+  border-style: solid;
+  border-color:#c4c4c4;
+  border-width: 0px 0px 0px 1px;
+  background-color: yellow;
+}
+div.qtyCtrl{
+  float: left;
+  height: 100%;
+  border-style: solid;
+  border-color:#c4c4c4;
+  border-width: 0px 0px 0px 0px;
+}
+div.unitCtrl{
+  float: left;
+  height: 100%;
+  border-style: solid;
+  border-color:#c4c4c4;
+  border-width: 0px 1px 0px 0px;
+  background-color:red;
+}
+
+div.productDetails{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 70%;
+  background-color: white;
+}
+
+div.productOffer{
+  position: absolute;
+  top: 0;
+  right:25%;
+  width: 20%;
+  height: 30%;
+  background-color: green;
+
+}
+
+div.productImg{
+  position: absolute;
+  top:0;
+  right: 0;
+  width: 30%;
+  height: 70%;
+  background-color: #c4c4c4;
+
+}
+
+div.tilefooter{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  background-color: blue;
+}
+
+div.carouselDiv{
+  position: relative;
+
+}
+
+div.listDiv{
+  position: relative;
+  top:20px;
+  width: 100%;
+  height: 10%*20;
+}
+/*div.carouselDiv{
+position: relative;
+width: 100%;
+}*/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+}
+
+/*.carousel-inner{
+max-height: 200px !important;
+}*/
